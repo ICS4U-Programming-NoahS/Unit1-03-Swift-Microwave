@@ -49,7 +49,7 @@ repeat {
                     // Check the number of items to make sure it is valid
                     if numItem <= 3 && numItem > 0 {
                         // If the user chooses pizza
-                        if (userItem == "pizza") {
+                        if userItem == "pizza" {
                             // Calculate the time it takes to heat up user's pizza(s)
                             let timePizza = (Double(pizzaTime) * (Double(numItem) - 1) * 0.5) + Double(pizzaTime)
 
@@ -57,7 +57,7 @@ repeat {
                             print("It will take \(String(format: "%.2f", timePizza)) to heat up", numItem, "pizza(s).")
 
                         // If the user chooses sub
-                        } else if (userItem == "sub") {
+                        } else if userItem == "sub" {
 
                             // Calculate the time it takes to heat up user's sub(s)
                             let timeSub = (Double(subTime) * (Double(numItem) - 1) * 0.5) + Double(subTime)
@@ -76,7 +76,7 @@ repeat {
 
                         // Break from numItem loop
                         break
-                    
+
                     // If the user enters an invalid number of items
                     } else {
                         print("You must choose a positive number less than or equal to 3. Try again.")
@@ -90,7 +90,7 @@ repeat {
                 // If user does not enter a number
                 print("Please enter a number.")
             }
-        } 
+        }
         // Keep looping while the input is still invalid
         while (true)
 
