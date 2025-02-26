@@ -55,11 +55,15 @@ repeat {
 
                             // Convert the time it takes to heat up pizza
                             // from seconds to minutes and seconds
-                            let minutes: Int = Int(timePizza / 60.0);
-                            let seconds: Double = timePizza - 60.0 * Double(minutes);
+                            let minutes: Int = Int(timePizza / 60.0)
+                            let seconds: Double = timePizza - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's pizza(s)
-                            print("It will take \(minutes) minutes and \(String(format: "%.2f", seconds)) seconds to heat up \(numItem) pizza(s).")
+                            print(
+                                "It will take \(minutes)
+                                minutes and \(String(format: "%.2f", seconds))
+                                seconds to heat up \(numItem) pizza(s)."
+                                )
 
                         // If the user chooses sub
                         } else if userItem == "sub" {
@@ -69,11 +73,15 @@ repeat {
 
                             // Convert the time it takes to heat up subs
                             // from seconds to minutes and seconds
-                            let minutes: Int = Int(timeSub / 60.0);
-                            let seconds: Double = timeSub - 60.0 * Double(minutes);
+                            let minutes: Int = Int(timeSub / 60.0)
+                            let seconds: Double = timeSub - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's sub(s)
-                            print("It will take \(minutes) minutes and \(String(format: "%.2f", seconds)) seconds to heat up \(numItem) sub(s).")
+                            print(
+                                "It will take \(minutes)
+                                minutes and \(String(format: "%.2f", seconds))
+                                seconds to heat up \(numItem) pizza(s)."
+                                )
 
                         // If the user chooses soup
                         } else {
@@ -82,11 +90,15 @@ repeat {
 
                             // Convert the time it takes to heat up soup
                             // from seconds to minutes and seconds
-                            let minutes: Int = Int(timeSoup / 60.0);
-                            let seconds: Double = timeSoup - 60.0 * Double(minutes);
+                            let minutes: Int = Int(timeSoup / 60.0)
+                            let seconds: Double = timeSoup - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's soup(s)
-                            print("It will take \(minutes) minutes and \(String(format: "%.2f", seconds)) seconds to heat up \(numItem) soup(s).")
+                            print(
+                                "It will take \(minutes)
+                                minutes and \(String(format: "%.2f", seconds))
+                                seconds to heat up \(numItem) pizza(s)."
+                                )
                         }
 
                         // Break from numItem loop
