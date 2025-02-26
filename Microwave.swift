@@ -59,10 +59,8 @@ repeat {
                             let seconds: Double = timePizza - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's pizza(s)
-                            print(
-                                "It will take \(minutes)
-                                minutes and \(String(format: "%.2f", seconds))
-                                seconds to heat up \(numItem) pizza(s)."
+                            print("It will take", minutes, "minutes and ", String(format: "%.2f", seconds),
+                                " seconds to heat up \(numItem) pizza(s)."
                                 )
 
                         // If the user chooses sub
@@ -77,10 +75,8 @@ repeat {
                             let seconds: Double = timeSub - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's sub(s)
-                            print(
-                                "It will take \(minutes)
-                                minutes and \(String(format: "%.2f", seconds))
-                                seconds to heat up \(numItem) pizza(s)."
+                            print("It will take", minutes, "minutes and ", String(format: "%.2f", seconds),
+                                " seconds to heat up \(numItem) sub(s)."
                                 )
 
                         // If the user chooses soup
@@ -94,10 +90,8 @@ repeat {
                             let seconds: Double = timeSoup - 60.0 * Double(minutes)
 
                             // Display the time it takes to heat up user's soup(s)
-                            print(
-                                "It will take \(minutes)
-                                minutes and \(String(format: "%.2f", seconds))
-                                seconds to heat up \(numItem) pizza(s)."
+                            print("It will take", minutes, "minutes and ", String(format: "%.2f", seconds),
+                                " seconds to heat up \(numItem) soup(s)."
                                 )
                         }
 
